@@ -5,8 +5,8 @@ function Header() {
     <div className="Header">
       <h1>Mgs.me</h1>
       <section>
-        <a href=''>Log In</a>
-        <a href=''>Sign Up</a>
+        <a href=''>Вход</a>
+        <a href=''>Регистрация</a>
       </section>
     </div>
   );
