@@ -1,13 +1,16 @@
-import '../styles/style.css';
+import React from 'react';
 
 function Header() {
+
+
+
   return (
     <div className="Header">
-      <h1>Mgs.me</h1>
+      <h1>Header</h1>
       <section>
-        <a href=''>Вход</a>
-        <a href=''>Регистрация</a>
+        <a id='reg' href='/'>Регистрация</a>
       </section>
+
     </div>
   );
 }

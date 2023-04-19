@@ -15,6 +15,10 @@ body {
   .container {
     max-width: 1080px;
     margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .Header {
@@ -64,6 +68,44 @@ body {
 
   .Main {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: #0025cc12;
+  }
+
+  .Reg {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border: 3px solid #0024CC;
+    padding: 50px;
+    background: #0025cc12;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  
+  .Reg input {
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .Reg button {
+    margin-top: 20px;
+    border-radius: 5px;
+  
+    color: #0024CC;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+  }
+
+  .Reg button:hover {
+    transition: .5s;
+    background: #0024CC;
+    color: whitesmoke;
+    font-weight: bold;
   }
