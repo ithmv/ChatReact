@@ -77,12 +77,13 @@ body {
     display: none;
     flex-direction: column;
     border: 3px solid #0024CC;
-    padding: 50px;
     background: #0025cc12;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
+    align-items: baseline;
+    padding: 50px;
   }
   
   .Reg input {
@@ -94,7 +95,7 @@ body {
   .Reg button {
     margin-top: 20px;
     border-radius: 5px;
-  
+    width: 200px;
     color: #0024CC;
     background-color: white;
     font-weight: bold;
